@@ -1,0 +1,60 @@
+
+
+div{
+    background-color: rgb(22, 180, 88);
+    height: 400px;
+    width: 330px;
+    color: rgb(60, 37, 97);
+    display: inline-block;
+    margin: 30px;
+    font-family: monospace;
+}
+div:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+#a:hover{
+    background-color: rgb(232, 224, 233);
+    color: rgb(156, 102, 20);
+}
+#b:hover{
+    background-color: hsl(229, 71%, 31%);
+    color: rgb(156, 102, 20);
+}
+#c:hover{
+    background-color: rgb(3, 19, 11);
+    color: rgb(156, 102, 20);
+}
+h2{
+    text-align: center;
+    margin: 40px auto;
+    font-size: 40px;
+    font-family: sans-serif;
+   
+}
+img{
+    font-size: 0px;
+    height: 50px;
+}
+  
+  
+
+h2:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+p{
+    text-align: center;
+    margin: 60px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+}
+button>a{
+    text-align: center;
+    background-color: rgba(41, 0, 224, 0.233);
+    color: rgb(2, 0, 0);
+    font-size: 15px;
+    margin: 0 auto;
+    
+}
+
